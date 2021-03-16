@@ -1,0 +1,123 @@
+.adding {
+  border-radius: 15px;
+  border: transparent;
+  -webkit-box-shadow: 0px 0px 10px gray;
+          box-shadow: 0px 0px 10px gray;
+  width: 100%;
+  margin-top: 5%;
+}
+
+.adding input {
+  border-radius: 10px;
+  border: transparent;
+  -webkit-box-shadow: 0px 0px 5px gray;
+          box-shadow: 0px 0px 5px gray;
+  margin-top: 16px;
+  margin-left: 5%;
+  width: 61%;
+  height: 40px;
+}
+
+.adding button {
+  background-color: #1bc0de;
+  border-radius: 10px;
+  border: transparent;
+  -webkit-box-shadow: 0px 0px 2px gray;
+          box-shadow: 0px 0px 2px gray;
+  margin-left: 66%;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  width: 30%;
+  height: 40px;
+  color: white;
+}
+
+.table-holder {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.table-holder table {
+  width: 90%;
+  border: transparent;
+  -webkit-box-shadow: 0px 0px 5px gray;
+          box-shadow: 0px 0px 5px gray;
+  border-collapse: collapse;
+}
+
+.table-holder td {
+  border: 1px solid gray;
+}
+
+/*------------footer------------*/
+footer {
+  background-color: #1bc0de;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+footer i {
+  color: white;
+  font-size: 30px;
+}
+
+footer h3 {
+  padding-top: 0px;
+  padding-left: 10px;
+  color: white;
+  font-size: 15px;
+}
+
+footer .footer {
+  padding-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+  .adding {
+    border-radius: 15px;
+    border: transparent;
+    -webkit-box-shadow: 0px 0px 10px gray;
+            box-shadow: 0px 0px 10px gray;
+    width: 100%;
+    margin-top: 5%;
+  }
+  .adding input {
+    border-radius: 10px;
+    border: transparent;
+    -webkit-box-shadow: 0px 0px 5px gray;
+            box-shadow: 0px 0px 5px gray;
+    margin-top: 16px;
+    margin-left: 5%;
+    width: 61%;
+    height: 40px;
+  }
+  .adding button {
+    background-color: #1bc0de;
+    border-radius: 10px;
+    border: transparent;
+    -webkit-box-shadow: 0px 0px 2px gray;
+            box-shadow: 0px 0px 2px gray;
+    margin-left: 66%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    width: 30%;
+    height: 40px;
+    color: white;
+  }
+}
+/*# sourceMappingURL=add.author.css.map */
